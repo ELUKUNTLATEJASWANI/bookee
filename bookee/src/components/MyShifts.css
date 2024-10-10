@@ -1,0 +1,90 @@
+/* MyShifts.css */
+
+.my-shifts {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f9fb;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .shift-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .shift-header h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #4F6C92;
+  }
+  
+  .shift-header span {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .shift-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .shift-item:last-child {
+    border-bottom: none;
+  }
+  
+  .shift-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .shift-details strong {
+    font-size: 15px;
+    font-weight: lighter;
+    color:#A4B8D3;
+    align-content: left;
+  }
+  
+  .shift-details p {
+    font-size: 14px;
+    color: #CBD2E1;
+    margin: 5px 0 0 0;
+  }
+  
+  .cancel-button {
+    background-color: white;
+    border: 1px solid #ff007f; /* Pink outline */
+    color: #ff007f; /* Pink text */
+    border-radius: 20px;
+    padding: 6px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cancel-button:hover {
+    background-color: #ff007f; /* Pink background on hover */
+    color: white; /* White text on hover */
+  }
+  
+  
